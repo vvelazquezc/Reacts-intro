@@ -1,0 +1,38 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.card__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1100px;
+    height: 100vh;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 550px;
+    border: 1px solid #ddd;
+    padding: 0 25px;
+}
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+.card h2 {
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+.card button {
+    align-self: flex-start;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: transparent;
+}
+
+
